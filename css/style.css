@@ -42,3 +42,12 @@ body {
 #submit:focus {
     outline: none;
 }
+
+#entries {
+    background-color: #16697A;
+    color: #EDE7E3;
+    border-radius: 25px;
+    border: unset;
+    font-family: cursive;
+}
+

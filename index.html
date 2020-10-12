@@ -9,9 +9,11 @@
 <body>
     <h1 class="title">My Personal Diary</h1>
     <form id="entry-form">
-        <textarea name="entry-area" class="entry-textbox" placeholder="Click here to start typing.." cols="30" rows="10"></textarea>
+        <textarea class="entry-textbox" placeholder="Click here to start typing.." cols="30" rows="10"></textarea>
         <br><br>
         <button type="submit" id="submit">Submit</button>
+        <!-- User entries will append here -->
+        <section id="entries"></section>
     </form>
     <script src="js/index.js"></script>
 </body>
