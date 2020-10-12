@@ -9,6 +9,8 @@ body {
     margin: 5%;
     padding: 0;
     font-family: "Gill Sans", "gill Sans MT"; 
+    display: grid;
+    justify-content: center;
 }
 
 #entry-form {
@@ -24,11 +26,19 @@ body {
     border: unset;
 }
 
+.entry-textbox:focus, input:focus{
+    outline: none;
+}
+
 #submit {
     border-radius: 15px;
     width: 90px;
-    font-size: 22px;
-    padding: .5em;
-    text-align: center;
-    
+    font-size: 22px; 
+    border: unset;  
+    padding: .5em; 
+    margin-left: 70%;
+}
+
+#submit:focus {
+    outline: none;
 }
